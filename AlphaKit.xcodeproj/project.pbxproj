@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061ACABD95E1E10C5E3E4465 /* libPods-AlphaKit-AlphaKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8340D26FEC8238A2DDC907 /* libPods-AlphaKit-AlphaKitTests.a */; };
 		7509D11F233B6E1C00F00B38 /* AlphaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7509D115233B6E1C00F00B38 /* AlphaKit.framework */; };
 		7509D124233B6E1C00F00B38 /* AlphaKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7509D123233B6E1C00F00B38 /* AlphaKitTests.m */; };
 		7509D126233B6E1C00F00B38 /* AlphaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7509D118233B6E1C00F00B38 /* AlphaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBA2D659E0F763444E44B0B7 /* libPods-AlphaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946912E9901D69C56E9DF53C /* libPods-AlphaKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09118DF1CAFB7B9D9603940F /* Pods-AlphaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaKit.debug.xcconfig"; path = "Target Support Files/Pods-AlphaKit/Pods-AlphaKit.debug.xcconfig"; sourceTree = "<group>"; };
+		1D8340D26FEC8238A2DDC907 /* libPods-AlphaKit-AlphaKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlphaKit-AlphaKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212B6102328450E1868CA289 /* Pods-AlphaKit-AlphaKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaKit-AlphaKitTests.release.xcconfig"; path = "Target Support Files/Pods-AlphaKit-AlphaKitTests/Pods-AlphaKit-AlphaKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AD30E4540694CBF9A0F8C28 /* Pods-AlphaKit-AlphaKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaKit-AlphaKitTests.debug.xcconfig"; path = "Target Support Files/Pods-AlphaKit-AlphaKitTests/Pods-AlphaKit-AlphaKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7509D115233B6E1C00F00B38 /* AlphaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlphaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7509D118233B6E1C00F00B38 /* AlphaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlphaKit.h; sourceTree = "<group>"; };
 		7509D119233B6E1C00F00B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7509D11E233B6E1C00F00B38 /* AlphaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7509D123233B6E1C00F00B38 /* AlphaKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaKitTests.m; sourceTree = "<group>"; };
 		7509D125233B6E1C00F00B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905E120C0C5E0A1B9360E27F /* Pods-AlphaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaKit.release.xcconfig"; path = "Target Support Files/Pods-AlphaKit/Pods-AlphaKit.release.xcconfig"; sourceTree = "<group>"; };
+		946912E9901D69C56E9DF53C /* libPods-AlphaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlphaKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA2D659E0F763444E44B0B7 /* libPods-AlphaKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				7509D11F233B6E1C00F00B38 /* AlphaKit.framework in Frameworks */,
+				061ACABD95E1E10C5E3E4465 /* libPods-AlphaKit-AlphaKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		126CC1BDA2B96F79BA6646D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09118DF1CAFB7B9D9603940F /* Pods-AlphaKit.debug.xcconfig */,
+				905E120C0C5E0A1B9360E27F /* Pods-AlphaKit.release.xcconfig */,
+				2AD30E4540694CBF9A0F8C28 /* Pods-AlphaKit-AlphaKitTests.debug.xcconfig */,
+				212B6102328450E1868CA289 /* Pods-AlphaKit-AlphaKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7509D10B233B6E1C00F00B38 = {
 			isa = PBXGroup;
 			children = (
 				7509D117233B6E1C00F00B38 /* AlphaKit */,
 				7509D122233B6E1C00F00B38 /* AlphaKitTests */,
 				7509D116233B6E1C00F00B38 /* Products */,
+				126CC1BDA2B96F79BA6646D5 /* Pods */,
+				86A3EA7D2128175071F23AFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +110,15 @@
 			path = AlphaKitTests;
 			sourceTree = "<group>";
 		};
+		86A3EA7D2128175071F23AFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946912E9901D69C56E9DF53C /* libPods-AlphaKit.a */,
+				1D8340D26FEC8238A2DDC907 /* libPods-AlphaKit-AlphaKitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7509D129233B6E1C00F00B38 /* Build configuration list for PBXNativeTarget "AlphaKit" */;
 			buildPhases = (
+				CD484D3C968DC258350FC5AF /* [CP] Check Pods Manifest.lock */,
 				7509D110233B6E1C00F00B38 /* Headers */,
 				7509D111233B6E1C00F00B38 /* Sources */,
 				7509D112233B6E1C00F00B38 /* Frameworks */,
 				7509D113233B6E1C00F00B38 /* Resources */,
+				1A7330ABC4ED77A6EDB4409D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7509D12C233B6E1C00F00B38 /* Build configuration list for PBXNativeTarget "AlphaKitTests" */;
 			buildPhases = (
+				496A01DECC4116D4C3E36C39 /* [CP] Check Pods Manifest.lock */,
 				7509D11A233B6E1C00F00B38 /* Sources */,
 				7509D11B233B6E1C00F00B38 /* Frameworks */,
 				7509D11C233B6E1C00F00B38 /* Resources */,
+				A6663157754FC868454641A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +225,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A7330ABC4ED77A6EDB4409D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaKit/Pods-AlphaKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaKit/Pods-AlphaKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlphaKit/Pods-AlphaKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		496A01DECC4116D4C3E36C39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaKit-AlphaKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6663157754FC868454641A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaKit-AlphaKitTests/Pods-AlphaKit-AlphaKitTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlphaKit-AlphaKitTests/Pods-AlphaKit-AlphaKitTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlphaKit-AlphaKitTests/Pods-AlphaKit-AlphaKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD484D3C968DC258350FC5AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlphaKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7509D111233B6E1C00F00B38 /* Sources */ = {
@@ -334,6 +452,7 @@
 		};
 		7509D12A233B6E1C00F00B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09118DF1CAFB7B9D9603940F /* Pods-AlphaKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +476,7 @@
 		};
 		7509D12B233B6E1C00F00B38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905E120C0C5E0A1B9360E27F /* Pods-AlphaKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -380,6 +500,7 @@
 		};
 		7509D12D233B6E1C00F00B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD30E4540694CBF9A0F8C28 /* Pods-AlphaKit-AlphaKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AlphaKitTests/Info.plist;
@@ -396,6 +517,7 @@
 		};
 		7509D12E233B6E1C00F00B38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212B6102328450E1868CA289 /* Pods-AlphaKit-AlphaKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AlphaKitTests/Info.plist;
