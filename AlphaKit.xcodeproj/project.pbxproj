@@ -13,6 +13,7 @@
 		7509D126233B6E1C00F00B38 /* AlphaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7509D118233B6E1C00F00B38 /* AlphaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7509D135233B721F00F00B38 /* AlphaFB.h in Headers */ = {isa = PBXBuildFile; fileRef = 7509D133233B721F00F00B38 /* AlphaFB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7509D136233B721F00F00B38 /* AlphaFB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7509D134233B721F00F00B38 /* AlphaFB.m */; };
+		7509D139233B734700F00B38 /* AlphaFBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7509D138233B734700F00B38 /* AlphaFBTest.m */; };
 		BBA2D659E0F763444E44B0B7 /* libPods-AlphaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946912E9901D69C56E9DF53C /* libPods-AlphaKit.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		7509D125233B6E1C00F00B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7509D133233B721F00F00B38 /* AlphaFB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlphaFB.h; sourceTree = "<group>"; };
 		7509D134233B721F00F00B38 /* AlphaFB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaFB.m; sourceTree = "<group>"; };
+		7509D138233B734700F00B38 /* AlphaFBTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaFBTest.m; sourceTree = "<group>"; };
 		905E120C0C5E0A1B9360E27F /* Pods-AlphaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaKit.release.xcconfig"; path = "Target Support Files/Pods-AlphaKit/Pods-AlphaKit.release.xcconfig"; sourceTree = "<group>"; };
 		946912E9901D69C56E9DF53C /* libPods-AlphaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlphaKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 			children = (
 				7509D123233B6E1C00F00B38 /* AlphaKitTests.m */,
 				7509D125233B6E1C00F00B38 /* Info.plist */,
+				7509D138233B734700F00B38 /* AlphaFBTest.m */,
 			);
 			path = AlphaKitTests;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7509D139233B734700F00B38 /* AlphaFBTest.m in Sources */,
 				7509D124233B6E1C00F00B38 /* AlphaKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
